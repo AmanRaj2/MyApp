@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "828144197819",
+    "firebase_url": "https://myapp-41437.firebaseio.com",
+    "project_id": "myapp-41437",
+    "storage_bucket": "myapp-41437.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828144197819:android:cda256f478c2014931499e",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828144197819-rar4v2gf4tq3hh476iulrlk9p6ra4qe3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapp",
+            "certificate_hash": "326012c0cee8c3eee445ca35e7678ce79892c564"
+          }
+        },
+        {
+          "client_id": "828144197819-pmu1ecb72d7gs102icno5t8870i74u84.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmG9Im8Fo2yjGOBZ-poRWcvmHg1LcYO5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828144197819-pmu1ecb72d7gs102icno5t8870i74u84.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

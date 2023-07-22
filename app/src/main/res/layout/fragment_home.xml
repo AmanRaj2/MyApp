@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:background="@color/backgroundColor">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/home_imageView_all"
+            android:src="@drawable/ic_public"
+            android:layout_marginLeft="40dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_color="@color/red"
+            app:civ_border_width="2dp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/home_imageView_following"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/home_imageView_all"
+            android:src="@drawable/ic_friends"
+            app:civ_border_color="@color/red"
+            app:civ_border_width="2dp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/home_imageView_followers"
+            android:layout_marginLeft="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/home_imageView_following"
+            android:src="@drawable/ic_followers"
+            app:civ_border_color="@color/red"
+            app:civ_border_width="2dp"/>
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/home_imageView_request"
+            android:layout_marginLeft="15dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_requests"
+            android:layout_toRightOf="@+id/home_imageView_followers"
+            app:civ_border_color="@color/red"
+            app:civ_border_width="2dp"/>
+
+        <TextView
+            android:id="@+id/home_textView_allCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_imageView_all"
+            android:layout_marginLeft="60dp"
+            android:text="All"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/home_textView_followingCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_imageView_all"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/home_textView_allCount"
+            android:text="Following"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/home_textView_followersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_imageView_all"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/home_textView_followingCount"
+            android:text="Followers"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/home_textView_requestsCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_imageView_all"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/home_textView_followersCount"
+            android:text="Requests"
+            android:textSize="14sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="1dp"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/home_recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ProgressBar
+            android:id="@+id/progress_circle_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

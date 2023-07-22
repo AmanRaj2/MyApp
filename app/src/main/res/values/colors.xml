@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#93703D</color>
+    <color name="colorPrimaryDark">#533911</color>
+    <color name="colorAccent">#986C2B</color>
+    <color name="boardColor">#A59B46</color>
+    <color name="winColor">#DC336C</color>
+    <color name="lightRed">#EDA29D</color>
+    <color name="btnBackgroundColor">#7E6848</color>
+    <color name="btnTextColor">#422802</color>
+    <color name="turnColor">#4BAA4F</color>
+    <color name="red">#8F1010</color>
+    <color name="green">#064E09</color>
+    <color name="post_Color">#605A50</color>
+    <color name="backgroundColor">#BCA86F</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="blueColor">#0A28CD</color>
+
+
+</resources>
